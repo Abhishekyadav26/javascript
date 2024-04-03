@@ -67,16 +67,19 @@ const course = {
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
-console.log(instructor);
+console.log(instructor); 
 
 // {
 //     "name": "hitesh",
-//     "coursename": "js in hindi",
+//     "coursename": "js in hindi", 
 //     "price": "free"
-// }
+// }  data call from api in json form
+
 
 [
     {},
-    {},
+    {}, // sometime it's inform of array
     {}
 ]
+// randomuser api json file here
+// jsonformatter website
