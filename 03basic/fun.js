@@ -1,10 +1,8 @@
 function sayMyName(){
-    console.log("H");
-    console.log("I");
-    console.log("T");
-    console.log("E");
-    console.log("S");
-    console.log("H");
+    console.log("a");
+    console.log("b");
+    console.log("h");
+    console.log("i");
 }
 
 // sayMyName()
