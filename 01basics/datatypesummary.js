@@ -13,6 +13,7 @@ const id = Symbol('123')
 const anotherId = Symbol('123')
 
 console.log(id === anotherId);
+// strict check means not only value but data type also checked.
 
 // const bigNumber = 3456543576654356754n
 
