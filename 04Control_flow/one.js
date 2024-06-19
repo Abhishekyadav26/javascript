@@ -2,7 +2,7 @@
 const isUserloggedIn = true
 const temperature = 41
 
-// if ( temperature === 40 ){
+// if ( temperature === 40 ){ strict variable check (check both value as well as data type)
 //     console.log("less than 50");
 // } else {
 //     console.log("temperature is greater than 50");
