@@ -51,7 +51,7 @@ const number2 = console.log(calprice2(25,526,908,23));
 // }
 
 function handleobject(anyobject){
-    console.log(`username ${anyobject.username} price ${anyobject.price}`);
+    // console.log(`username ${anyobject.username} price ${anyobject.price}`);
 }
 
 // handleobject(user)
@@ -67,4 +67,17 @@ function secvalue(array){
     return array[1];
 }
 
-console.log(secvalue(array));
+// console.log(secvalue(array));
+// call back functions
+
+
+function add(a,b,cb){
+    let result = a+b;
+    cb(result)
+    // return ()=>{console.log(result);}
+}
+ 
+add(2,3,function(val){
+    console.log(val);
+    
+});
